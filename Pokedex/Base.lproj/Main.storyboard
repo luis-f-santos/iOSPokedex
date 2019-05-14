@@ -12,6 +12,9 @@
         <array key="AppleSDGothicNeo.ttc">
             <string>AppleSDGothicNeo-Regular</string>
         </array>
+        <array key="Pokemon Solid.ttf">
+            <string>PokemonSolidNormal</string>
+        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -24,8 +27,22 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Um5-eP-x3V">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgz-5H-BVR">
+                                        <rect key="frame" x="122" y="24" width="131" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="36K-yP-wO9"/>
+                                            <constraint firstAttribute="width" constant="131" id="A0F-Kp-GxR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.8885807966" green="0.54900128390000003" blue="0.32595897829999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hgz-5H-BVR" secondAttribute="bottom" constant="4" id="EcA-HH-eVc"/>
+                                    <constraint firstItem="hgz-5H-BVR" firstAttribute="centerX" secondItem="Um5-eP-x3V" secondAttribute="centerX" id="dXX-0i-SYQ"/>
                                     <constraint firstAttribute="height" constant="65" id="kCD-O6-2N4"/>
                                 </constraints>
                             </view>
