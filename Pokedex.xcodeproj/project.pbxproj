@@ -20,6 +20,7 @@
 		BF8A6E872237D6890074AE3B /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = BF2C6BEA21C8807B0081D79C /* pokemon.csv */; };
 		BFEE5269228A5B3900A9FA2F /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFEE5267228A555800A9FA2F /* pokemon.ttf */; };
 		BFEE526A228A5B3D00A9FA2F /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFEE5268228A582400A9FA2F /* Pokemon Solid.ttf */; };
+		BFEE526C228A665100A9FA2F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEE526B228A615400A9FA2F /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BF8A6E852237CFB40074AE3B /* csv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		BFEE5267228A555800A9FA2F /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 		BFEE5268228A582400A9FA2F /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		BFEE526B228A615400A9FA2F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				BFEE5267228A555800A9FA2F /* pokemon.ttf */,
 				BFEE5268228A582400A9FA2F /* Pokemon Solid.ttf */,
+				BFEE526B228A615400A9FA2F /* music.mp3 */,
 				BF2C6BEA21C8807B0081D79C /* pokemon.csv */,
 			);
 			path = Resources;
@@ -295,6 +298,7 @@
 				BF2C6BC421C8744A0081D79C /* Assets.xcassets in Resources */,
 				BFEE526A228A5B3D00A9FA2F /* Pokemon Solid.ttf in Resources */,
 				BF8A6E872237D6890074AE3B /* pokemon.csv in Resources */,
+				BFEE526C228A665100A9FA2F /* music.mp3 in Resources */,
 				BF2C6BC221C8744A0081D79C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

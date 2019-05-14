@@ -38,10 +38,23 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHq-34-gtM">
+                                        <rect key="frame" x="324" y="28" width="43" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="43" id="R78-2g-oJ9"/>
+                                            <constraint firstAttribute="height" constant="28" id="pxG-ej-J2d"/>
+                                        </constraints>
+                                        <state key="normal" image="music"/>
+                                        <connections>
+                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BPL-m2-S1W"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.8885807966" green="0.54900128390000003" blue="0.32595897829999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="FHq-34-gtM" secondAttribute="bottom" constant="9" id="9bS-bm-vrg"/>
                                     <constraint firstAttribute="bottom" secondItem="hgz-5H-BVR" secondAttribute="bottom" constant="4" id="EcA-HH-eVc"/>
+                                    <constraint firstAttribute="trailing" secondItem="FHq-34-gtM" secondAttribute="trailing" constant="8" id="aZl-JX-CCj"/>
                                     <constraint firstItem="hgz-5H-BVR" firstAttribute="centerX" secondItem="Um5-eP-x3V" secondAttribute="centerX" id="dXX-0i-SYQ"/>
                                     <constraint firstAttribute="height" constant="65" id="kCD-O6-2N4"/>
                                 </constraints>
@@ -135,5 +148,6 @@
     <resources>
         <image name="4" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
