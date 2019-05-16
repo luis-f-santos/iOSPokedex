@@ -57,7 +57,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             let rows = csv.rows
             print(rows)
             
-            for row in rows {
+            for i in (0...717) {
+                var row = rows[i]
                 let pokeId = Int(row["id"]!)!
                 let name = row["identifier"]!
                 
