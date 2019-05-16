@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2723FB228D21F5008CD2D3 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2723FA228D21F5008CD2D3 /* PokemonDetailVC.swift */; };
 		BF2C6BBD21C8744A0081D79C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C6BBC21C8744A0081D79C /* AppDelegate.swift */; };
 		BF2C6BBF21C8744A0081D79C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C6BBE21C8744A0081D79C /* ViewController.swift */; };
 		BF2C6BC221C8744A0081D79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2C6BC021C8744A0081D79C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF2723FA228D21F5008CD2D3 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		BF2C6BB921C8744A0081D79C /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2C6BBC21C8744A0081D79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2C6BBE21C8744A0081D79C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2C6BBE21C8744A0081D79C /* ViewController.swift */,
+				BF2723FA228D21F5008CD2D3 /* PokemonDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				BF2C6BF021CF86280081D79C /* PokeCell.swift in Sources */,
 				BF2C6BBF21C8744A0081D79C /* ViewController.swift in Sources */,
 				BF2C6BBD21C8744A0081D79C /* AppDelegate.swift in Sources */,
+				BF2723FB228D21F5008CD2D3 /* PokemonDetailVC.swift in Sources */,
 				BF2C6BED21C884EF0081D79C /* Pokemon.swift in Sources */,
 				BF8A6E862237CFB40074AE3B /* csv.swift in Sources */,
 			);
