@@ -34,9 +34,18 @@ class PokemonDetailVC: UIViewController {
         
         DetailLabel.text = pokemon.name
 
+        
+        pokemon.downloadPokemonDetail {
+            //Called after network call is complete
+            
+            self.updateUI()
+        }
     }
 
-    
+    func updateUI() {
+        
+        
+    }
     
     
     
