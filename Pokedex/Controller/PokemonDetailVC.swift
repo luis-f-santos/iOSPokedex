@@ -23,7 +23,7 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var heightLbl: UILabel!
     @IBOutlet weak var pokedexLbl: UILabel!
     @IBOutlet weak var weightLbl: UILabel!
-    @IBOutlet weak var attackLbl: UILabel!
+    @IBOutlet weak var baseExpLbl: UILabel!
     @IBOutlet weak var currentEvoImg: UIImageView!
     @IBOutlet weak var nextEvoImg: UIImageView!
     @IBOutlet weak var evolutionLbl: UILabel!
@@ -32,8 +32,15 @@ class PokemonDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        DetailLabel.text = pokemon.name
+        DetailLabel.text = pokemon.name.capitalized
+        
+        let img = UIImage(named: "\(pokemon.pokedexId)")
 
+        MainImage.image = img
+        currentEvoImg.image = img
+        pokedexLbl.text = "\(pokemon.pokedexId)"
+        
+        
         
         pokemon.downloadPokemonDetail {
             //Called after network call is complete
@@ -43,6 +50,12 @@ class PokemonDetailVC: UIViewController {
     }
 
     func updateUI() {
+        
+        typeLbl.text = pokemon.type
+        heightLbl.text = pokemon.height
+        weightLbl.text = pokemon.weight
+        defenseLbl.text = pokemon.defense
+        baseExpLbl.text = pokemon.baseExp
         
         
     }
